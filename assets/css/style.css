@@ -7,12 +7,32 @@ nav {
     
 }
 
+ul li {
+    color: #ffffff;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/hero_full.png");
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-repeat: no-repeat;
+}
+
+.title {
+    color: #ffffff;
+}
+
+
+
 .header {
-    color: #125D98;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F5A962;
+    background-color: #3C8DAD;
     padding: 20px;
     flex-wrap: wrap;
 }
@@ -20,10 +40,12 @@ nav {
 .nav-menu li {
     flex-wrap: wrap;
     margin: 0 0 0 15px;
+    
 }
 
 .nav-menu {
-    display:flex;    
+    display:flex; 
+       
 }
 
 @media screen and (max-width: 530px) {
