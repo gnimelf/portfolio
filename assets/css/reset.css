@@ -16,4 +16,13 @@ time, mark, audio, video {
   outline: 0;
   vertical-align: baseline;
   background: transparent;
+  list-style: none;
+}
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:link:active, a:visited:active {
+  color: black;
 }

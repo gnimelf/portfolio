@@ -1,0 +1,33 @@
+body {
+    background: #DDDDDD;
+}
+
+nav {
+    margin: 15px 0;
+    
+}
+
+.header {
+    color: #125D98;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5A962;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-menu li {
+    flex-wrap: wrap;
+    margin: 0 0 0 15px;
+}
+
+.nav-menu {
+    display:flex;    
+}
+
+@media screen and (max-width: 530px) {
+    .nav-menu li{
+        margin: 0 15px 0 0;
+    }
+}
