@@ -7,10 +7,6 @@ nav {
     
 }
 
-ul li {
-    color: #ffffff;
-}
-
 .hero {
     background-size: cover;
     background-position: center;
@@ -22,9 +18,12 @@ ul li {
 }
 
 .title {
-    color: #ffffff;
+    font-size: 48px;
 }
 
+.title, ul li {
+    color: #ffffff;
+}
 
 
 .header {
@@ -40,7 +39,9 @@ ul li {
 .nav-menu li {
     flex-wrap: wrap;
     margin: 0 0 0 15px;
-    
+    font-size: 25px;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 1px;
 }
 
 .nav-menu {
