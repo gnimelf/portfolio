@@ -7,16 +7,6 @@ nav {
     
 }
 
-.hero {
-    background-size: cover;
-    background-position: center;
-    background-image: url("../images/hero_full.png");
-    height: 100px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-repeat: no-repeat;
-}
-
 .title {
     font-size: 48px;
 }
@@ -25,14 +15,12 @@ nav {
     color: #ffffff;
 }
 
-
 .header {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #3C8DAD;
-    padding: 20px;
+    padding: 20px 75px;
     flex-wrap: wrap;
 }
 
@@ -44,10 +32,50 @@ nav {
     padding-bottom: 1px;
 }
 
+.li a {
+
+}
+
 .nav-menu {
     display:flex; 
        
 }
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/hero_full.png");
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-repeat: no-repeat;
+}
+
+.sub-heading {
+    font-size: 48px;
+    text-align: right;
+    width: 225px;
+    padding-right: 10px;
+}
+
+#about-me, #work, #contact{
+    display: flex;
+    margin: 35px;
+    justify-content: space-evenly;
+}
+
+.main-img{
+    width: 775px;
+    height: 200px;
+}
+
+#about-me p , #work .projects, #contact p{
+    width: 850px;
+    margin: 0 10px;
+    border-left: 5px solid #3C8DAD;
+    padding-left: 10px;
+}
+
 
 @media screen and (max-width: 530px) {
     .nav-menu li{
