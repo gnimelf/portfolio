@@ -80,18 +80,28 @@ main {
     justify-content: space-around;
 }
 
-.main-img{
+.main-img {
     display: inline-block;
     position: relative;
     width: 100%;
     height: 200px;
+    margin-bottom: 5px;
 }
 
-.main-img img{
-    width: 100%;
+.project1{
     height: 100%;
+    width: 100%;
+    background-image: url(../images/project_1.png);
+    background-repeat: no-repeat;
+    background-position:  0 85%;
+    background-size: 150%;
     border: 3px solid #3C8DAD;
     opacity: .5;
+    z-index: 1;
+}
+
+.project1:hover{
+    opacity: 1;
 }
 
 .link-img {
@@ -113,6 +123,7 @@ main {
 .link-img a img{
     width: 100%;
     height: 100%;
+    border: 3px solid #3C8DAD;
     opacity: .5;
 }
 
@@ -154,6 +165,10 @@ main {
     main{
         margin: 0 25px;
         padding: 0 40px 0 40px;
+    }
+
+    .project1{
+        background-size: 150%;
     }
 
     .nav-menu li{
