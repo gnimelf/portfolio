@@ -1,8 +1,10 @@
+/* Color scheme */
 :root {
     --light: #fff;
     --dark: #3C8DAD;
 }
 
+/* Background  color*/
 body {
     background: #DDDDDD;
 }
@@ -50,6 +52,7 @@ main {
     margin: 0 15px 0 0;
 }
 
+/* Hero image */
 .hero {
     background-size: cover;
     background-position: center;
@@ -60,6 +63,7 @@ main {
     background-repeat: no-repeat;
 }
 
+/*  */
 .sub-heading {
     font-size: 48px;
     text-align: right;
@@ -68,12 +72,14 @@ main {
     color: var(--dark);
 }
 
+/* The main sections base */
 #about-me, #work, #contact{
     display: flex;
     margin: 35px;
     justify-content:center;
 }
 
+/* Project Section format */
 .projects {
     display: flex;
     direction: row;
@@ -100,6 +106,7 @@ main {
     z-index: 1;
 }
 
+/* Hover functionality */
 .project1:hover{
     opacity: 1;
 }
@@ -111,6 +118,7 @@ main {
     height: 200px;
 }
 
+/* Label over project images */
 .tag {
     position: absolute;
     top: 55%;
@@ -120,6 +128,11 @@ main {
     z-index: 2;
 }
 
+.tag p{
+    font-size: large;
+}
+
+/* Project image formatting */
 .link-img a img{
     width: 100%;
     height: 100%;
@@ -128,10 +141,8 @@ main {
 }
 
 
-.tag p{
-    font-size: large;
-}
 
+/* Sections */
 #about-me p , #work .projects, #contact p{
     width: 100%;
     display:inline-block;
@@ -139,14 +150,15 @@ main {
     padding-left: 10px;
 }
 
-
+/* Mobile reponse screen format @ 1188px */
 @media screen and (max-width: 1250px) {
     .link-img {
         flex: 0 0 50%;
         width: 49.75%;
     }
 }
-/* Two images per row */
+
+/* Mobile reponse screen format @ 1188px */
 @media screen and (max-width: 1188px) {
     .link-img {
         flex: 0 0 50%;
@@ -154,6 +166,7 @@ main {
     }
 }
 
+/* Mobile reponse screen format @ 1190px */
 @media screen and (max-width: 1190px) {
     .link-img {
         flex: 0 0 50%;
@@ -161,6 +174,7 @@ main {
     }
 }
 
+/* Mobile reponse screen format @ 885 */
 @media screen and (max-width: 885px) {
     main{
         margin: 0 25px;
