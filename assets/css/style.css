@@ -26,6 +26,7 @@ main {
 
 .title {
     font-size: 48px;
+    padding: 20px 0 20px 75px;
 }
 
 .title, ul li {
