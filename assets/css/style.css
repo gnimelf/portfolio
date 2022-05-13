@@ -153,11 +153,15 @@ main {
     font-size: large;
 }
 
-/* Sections formate*/
-#about-me p , #work .projects, #contact p{
+/* Sections format*/
+#about-me, #work, #contact{
+    display: flex;
+    margin: 35px;
+}
+
+#about-me p , #work .projects, #contact .contact-items{
     width: 100%;
-    display:inline-block;
-    border-left: 5px solid var(--dark);
+    border-left: 5px solid var(--medium);
     padding-left: 10px;
 }
 
