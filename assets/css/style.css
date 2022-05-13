@@ -1,7 +1,8 @@
 /* Color scheme */
 :root {
     --light: #fff;
-    --dark: #3C8DAD;
+    --medium: #3C8DAD;
+    --dark: #112B3C;
 }
 
 /* Background  color*/
