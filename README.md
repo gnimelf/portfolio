@@ -15,7 +15,7 @@ This site was wireframed using Balsamiq Wireframes software.
 
 
 ### Finished Product
-![Finished_product](./assets/images/finished.png)
+[![Finished_product](./assets/images/finished.png)](https://gnimelf.github.io/portfolio/)
 
 ## Credits
 
