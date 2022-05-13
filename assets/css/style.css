@@ -131,10 +131,10 @@ main {
 
 /* Secondary project container */
 .link-img {
-    display: inline-block;
     position: relative;
-    width: 25%;
+    width: 48.5%;
     height: 200px;
+    margin: 8px 8px;
 }
 
 /* Labels for project images */
