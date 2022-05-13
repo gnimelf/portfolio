@@ -75,7 +75,7 @@ main {
     text-align: right;
     min-width: 215px;
     padding-right: 10px;
-    color: var(--dark);
+    color: var(--medium);
 }
 
 /* The main sections base */
