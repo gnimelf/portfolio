@@ -11,11 +11,11 @@ This is my professional profolio, where I will link all my current and future pr
 This site was wireframed using Balsamiq Wireframes software.
 
 ### Wireframe
-[![wireframe](./assets/images/wireframe.png)]
+![wireframe](./assets/images/wireframe.png)
 
 
 ### Finished Product
-[![Finished_product](./assets/images/finished.png)]
+![Finished_product](./assets/images/finished.png)
 
 ## Credits
 
