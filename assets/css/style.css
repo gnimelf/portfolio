@@ -202,7 +202,7 @@ main {
 }
 
 /* Mobile reponse screen format @ 1473px */
-@media screen and (max-width: 1473px) {
+@media screen and (max-width: 1480px) {
     main {
         position:absolute;
         margin-top: 200px;

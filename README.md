@@ -10,13 +10,12 @@ This is my professional profolio, where I will link all my current and future pr
 
 This site was wireframed using Balsamiq Wireframes software.
 
+### Wireframe
 [![wireframe](./assets/images/wireframe.png)]
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+### Finished Product
+[![Finished_product](./assets/images/finished.png)]
 
 ## Credits
 
