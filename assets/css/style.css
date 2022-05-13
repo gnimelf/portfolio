@@ -88,8 +88,8 @@ main {
 /* Project Section format */
 .projects {
     display: flex;
-    direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
