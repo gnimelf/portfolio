@@ -161,28 +161,21 @@ main {
     padding-left: 10px;
 }
 
-/* Mobile reponse screen format @ 1188px */
-/* @media screen and (max-width: 1679ppx) {
-    .link-img {
-        flex-basis: 50%;
+/* Mobile reponse screen format @ 1473px */
+@media screen and (max-width: 1473px) {
+    main {
+        position:absolute;
+        margin-top: 200px;
+        align-items: center;
     }
-} */
 
-/* Mobile reponse screen format @ 1188px */
-/* @media screen and (max-width: 1188px) {
     .link-img {
-        flex-basis: 100%;
-        width: 99.75%;
+        width: 100%;
+        margin: 0 0 10px 0;
     }
-} */
 
-/* Mobile reponse screen format @ 1190px */
-/* @media screen and (max-width: 1190px) {
-    .link-img {
-        flex: 0 0 50%;
-        width: 99.75%;
-    }
-} */
+    
+}
 
 /* Mobile reponse screen format @ 885 */
 @media screen and (max-width: 885px) {
