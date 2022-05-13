@@ -218,7 +218,7 @@ main {
 }
 
 /* Mobile reponse screen format @ 885 */
-@media screen and (max-width: 885px) {
+@media screen and (max-width: 900px) {
     main{
         margin: 300px 25px 0;
         padding: 0 40px 0 40px;
@@ -228,8 +228,12 @@ main {
         background-size: 130%;
     }
 
+    .nav-menu {
+        margin-left: 25px;
+    }
+
     .nav-menu li{
-        margin: 0 15px 0 0;
+        margin-left: 15px;
     }
 
     .sub-heading {
