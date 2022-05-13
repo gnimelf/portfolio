@@ -19,11 +19,11 @@ This site was wireframed using Balsamiq Wireframes software.
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+### Software Used
+Balsamiq Wireframes software
+MS VSCode
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+I take credit for designing and creating this website.
 
 ## License
 
