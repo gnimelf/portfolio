@@ -2,7 +2,7 @@
 
 ## Description
 
-I went to school for mechanical engineering, but I have since found a passion for coding. I'm now pursing my goal to be a professional web developer.
+I went to school for mechanical engineering, but I have since found a passion for coding. I'm now pursuing my goal to be a professional web developer.
 
 This is my professional profolio, where I will link all my current and future projects.
 
