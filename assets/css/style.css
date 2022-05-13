@@ -14,7 +14,7 @@ nav {
     margin: 15px 0;
 }
 
-a img:hover {
+.sub-project:hover {
     opacity: 1;
 }
 
