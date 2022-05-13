@@ -185,14 +185,14 @@ main {
 } */
 
 /* Mobile reponse screen format @ 885 */
-/* @media screen and (max-width: 885px) {
+@media screen and (max-width: 885px) {
     main{
-        margin: 0 25px;
+        margin: 300px 25px 0;
         padding: 0 40px 0 40px;
     }
 
-    .project1{
-        background-size: 150%;
+    .hero-project{
+        background-size: 130%;
     }
 
     .nav-menu li{
@@ -210,4 +210,4 @@ main {
         border: none;
     }
 
-} */
+}
