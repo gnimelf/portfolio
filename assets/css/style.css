@@ -141,7 +141,8 @@ main {
 .tag {
     position: absolute;
     top: 55%;
-    background-color: #3C8DAD;
+    background-color: var(--dark);
+    border-radius: 0 10px 10px 0;
     color:#fff;
     padding: 20px 40px;
     z-index: 2;
