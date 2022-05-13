@@ -15,6 +15,15 @@ nav {
     margin: 15px 0;
 }
 
+svg {
+    height: 40px;
+    width: 40px;
+  }
+
+span {
+    margin: 4px 0 0 10px;
+}
+
 .sub-project:hover {
     opacity: 1;
 }
@@ -77,13 +86,6 @@ main {
     min-width: 215px;
     padding-right: 10px;
     color: var(--medium);
-}
-
-/* The main sections base */
-#about-me, #work, #contact{
-    display: flex;
-    margin: 35px;
-    justify-content:center;
 }
 
 /* Project Section format */
@@ -154,16 +156,49 @@ main {
     font-size: large;
 }
 
-/* Sections format*/
-#about-me, #work, #contact{
+/* Apply flex to the icon and text */
+.phone, .email {
     display: flex;
-    margin: 35px;
+    justify-content:center;  
+}
+
+/* Add spacing around each contact group */
+.social-media, .phone, .email{
+    margin: 10px;
+}
+
+/* Social media icon spacing */
+.github, .linkedIn {
+    margin: 0 10px;
+}
+
+/* Set flex on social media icons */
+.social-media {
+    display: flex;
+    justify-content:center;
 }
 
 #about-me p , #work .projects, #contact .contact-items{
     width: 100%;
     border-left: 5px solid var(--medium);
     padding-left: 10px;
+}
+
+/* The main sections base */
+#about-me, #work, #contact{
+    display: flex;
+    margin: 35px;
+
+}
+#about-me, #work{
+  justify-content:center;  
+}
+
+
+#contact {
+    align-items: center;
+    justify-content: space-between;
+    vertical-align:middle
 }
 
 /* Mobile reponse screen format @ 1473px */
