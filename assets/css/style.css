@@ -36,10 +36,12 @@ main {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: var(--dark);
-    padding: 20px 75px;
+    background-color: var(--medium);
+    width: 100%; 
     flex-wrap: wrap;
+    position: fixed;
+    z-index: 3;
+    box-shadow: 0 5px 5px #112B3C;
 }
 
 .nav-menu li {
