@@ -63,7 +63,7 @@ main {
     background-repeat: no-repeat;
 }
 
-/*  */
+/* Page catagories */
 .sub-heading {
     font-size: 48px;
     text-align: right;
@@ -83,18 +83,20 @@ main {
 .projects {
     display: flex;
     direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
+
+/* Main project container */
 .main-img {
     display: inline-block;
     position: relative;
     width: 100%;
     height: 200px;
-    margin-bottom: 5px;
 }
 
-.project1{
+/* Main project image format */
+.hero-project{
     height: 100%;
     width: 100%;
     background-image: url(../images/project_1.png);
@@ -106,19 +108,29 @@ main {
     z-index: 1;
 }
 
+.sub-project{
+    width: 100%;
+    height: 100%;
+    background-color: var(--medium);
+    border: 3px solid var(--dark); 
+    opacity: .5;
+    transition: opacity 1s;
+}
+
 /* Hover functionality */
 .project1:hover{
     opacity: 1;
 }
 
+/* Secondary project container */
 .link-img {
     display: inline-block;
     position: relative;
-    width: 24.65%;
+    width: 25%;
     height: 200px;
 }
 
-/* Label over project images */
+/* Labels for project images */
 .tag {
     position: absolute;
     top: 55%;
@@ -128,21 +140,12 @@ main {
     z-index: 2;
 }
 
-.tag p{
+/* Label font */
+.tag p {
     font-size: large;
 }
 
-/* Project image formatting */
-.link-img a img{
-    width: 100%;
-    height: 100%;
-    border: 3px solid #3C8DAD;
-    opacity: .5;
-}
-
-
-
-/* Sections */
+/* Sections formate*/
 #about-me p , #work .projects, #contact p{
     width: 100%;
     display:inline-block;
@@ -151,31 +154,30 @@ main {
 }
 
 /* Mobile reponse screen format @ 1188px */
-@media screen and (max-width: 1250px) {
+/* @media screen and (max-width: 1679ppx) {
     .link-img {
-        flex: 0 0 50%;
-        width: 49.75%;
+        flex-basis: 50%;
     }
-}
+} */
 
 /* Mobile reponse screen format @ 1188px */
-@media screen and (max-width: 1188px) {
+/* @media screen and (max-width: 1188px) {
     .link-img {
-        flex: 0 0 50%;
+        flex-basis: 100%;
         width: 99.75%;
     }
-}
+} */
 
 /* Mobile reponse screen format @ 1190px */
-@media screen and (max-width: 1190px) {
+/* @media screen and (max-width: 1190px) {
     .link-img {
         flex: 0 0 50%;
         width: 99.75%;
     }
-}
+} */
 
 /* Mobile reponse screen format @ 885 */
-@media screen and (max-width: 885px) {
+/* @media screen and (max-width: 885px) {
     main{
         margin: 0 25px;
         padding: 0 40px 0 40px;
@@ -188,14 +190,16 @@ main {
     .nav-menu li{
         margin: 0 15px 0 0;
     }
+
     .sub-heading {
         text-align: left;
         margin: 0 25 0 0px;
     }
+
     #about-me, #work, #contact{
         display: inline;
         width: 100%;
         border: none;
     }
 
-}
+} */
