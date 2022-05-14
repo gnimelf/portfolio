@@ -190,6 +190,8 @@ main {
     margin: 35px;
 
 }
+
+
 #about-me, #work{
   justify-content:center;  
 }
@@ -213,11 +215,9 @@ main {
         width: 100%;
         margin: 0 0 10px 0;
     }
-
-    
 }
 
-/* Mobile reponse screen format @ 885 */
+/* Mobile reponse screen format @ 900 */
 @media screen and (max-width: 900px) {
     main{
         margin: 300px 25px 0;
@@ -228,8 +228,18 @@ main {
         background-size: 130%;
     }
 
+    .title {
+        padding: 20px 50px 20px 50px;
+    }
+
+    .header {
+        justify-content: center;
+    }
+  
     .nav-menu {
-        margin-left: 25px;
+        margin: 0px;
+        justify-content: center;
+        padding: 10px 30px 20px 30px;
     }
 
     .nav-menu li{
