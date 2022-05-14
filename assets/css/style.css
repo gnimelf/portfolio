@@ -36,7 +36,7 @@ main {
 
 .title {
     font-size: 48px;
-    padding: 20px 0 20px 75px;
+    padding: 20px 0 20px 200px;
 }
 
 .title, ul li {
@@ -45,13 +45,20 @@ main {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     background-color: var(--medium);
     width: 100%; 
     flex-wrap: wrap;
     position: fixed;
     z-index: 3;
     box-shadow: 0 5px 5px var(--dark);
+}
+
+.title-menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+    width: 100%;
 }
 
 .nav-menu li {
@@ -65,8 +72,7 @@ main {
 
 .nav-menu {
     display:flex;
-    margin: 0 15px 0 0;
-    padding: 20px 75px 20px 0;
+    padding: 20px 0;
 }
 
 /* Hero image */
@@ -178,6 +184,16 @@ main {
     justify-content:center;
 }
 
+
+#me img {
+    position: absolute;
+    margin: 20px 0 0 20px;
+    border-radius: 25%;
+    height: 204.75px;
+    width: 187px;
+}
+
+
 #about-me p , #work .projects, #contact .contact-items{
     width: 100%;
     border-left: 5px solid var(--medium);
@@ -190,7 +206,6 @@ main {
     margin: 35px;
 
 }
-
 
 #about-me, #work{
   justify-content:center;  
@@ -218,9 +233,9 @@ main {
 }
 
 /* Mobile reponse screen format @ 900 */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1030px) {
     main{
-        margin: 300px 25px 0;
+        margin: 350px 25px 0;
         padding: 0 40px 0 40px;
     }
 
@@ -229,6 +244,7 @@ main {
     }
 
     .title {
+        text-align: center;
         padding: 20px 50px 20px 50px;
     }
 
@@ -246,9 +262,19 @@ main {
         margin-left: 15px;
     }
 
+    .title-menu {
+        flex-direction: column;
+        margin: 0 30px;
+    }
+
     .sub-heading {
         text-align: left;
         margin: 0 25 0 0px;
+    }
+
+    #me img {
+        position: relative;
+        margin: 10px 30px;
     }
 
     #about-me, #work, #contact{
