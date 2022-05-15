@@ -280,7 +280,7 @@ footer h2 {
 
 }
 
-/* Mobile reponse screen format @ 900 */
+/* Mobile reponse screen format @ 1340 */
 @media screen and (max-width: 1340px) {
     main{
         position: relative;
