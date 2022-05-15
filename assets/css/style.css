@@ -30,7 +30,7 @@ span {
 
 main {
     position:absolute;
-    margin: 200px 65px 0 25px;
+    margin: 220px 65px 0 25px;
     align-items: center;
 }
 
@@ -83,6 +83,7 @@ main {
     height: 100px;
     width: 100%;
     background-repeat: no-repeat;
+    border-bottom: 3px solid #112B3C;
 }
 
 /* Page catagories */
@@ -120,6 +121,7 @@ main {
     background-position:  0 85%;
     background-size: 130%;
     border: 3px solid var(--dark);
+    border-radius: 25px;
     opacity: .5;
     transition: opacity 1s;
 }
@@ -130,6 +132,7 @@ main {
     background-color: var(--medium);
     border: 3px solid var(--dark); 
     opacity: .5;
+    border-radius: 25px;
     transition: opacity 1s;
 }
 
@@ -184,17 +187,17 @@ main {
     justify-content:center;
 }
 
-
+/* self image */
 #me img {
     position: absolute;
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 5%;
     border-radius: 25%;
     height: 204.75px;
     width: 187px;
+    border: 3px solid #112B3C;
 }
 
-
-#about-me p , #work .projects, #contact .contact-items{
+#about-me p, #work .projects, #contact .contact-items{
     width: 100%;
     border-left: 5px solid var(--medium);
     padding-left: 10px;
@@ -222,7 +225,7 @@ main {
 @media screen and (max-width: 1480px) {
     main {
         position:absolute;
-        margin-top: 200px;
+        margin-top: 220px;
         align-items: center;
     }
 
@@ -235,7 +238,7 @@ main {
 /* Mobile reponse screen format @ 900 */
 @media screen and (max-width: 1030px) {
     main{
-        margin: 350px 25px 0;
+        margin: 550px 25px 0;
         padding: 0 40px 0 40px;
     }
 
