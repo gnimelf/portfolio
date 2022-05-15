@@ -20,8 +20,10 @@ This site was wireframed using Balsamiq Wireframes software.
 ## Credits
 
 ### Software Used
-Balsamiq Wireframes software
-MS VSCode
+Balsamiq Wireframes, MS VSCode, 
+
+### Others content used
+Google Fonts, Font Awesome
 
 I take credit for designing and creating this website.
 
