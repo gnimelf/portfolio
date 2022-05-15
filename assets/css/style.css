@@ -1,6 +1,6 @@
 /* Color scheme */
 :root {
-    --light: #fff;
+    --light: #DDDDDD;
     --medium: #3C8DAD;
     --dark: #112B3C;
     --font_family: Montserrat, sans-serif, serif;
@@ -10,7 +10,7 @@
 /* Background  color*/
 body {
     position: relative;
-    background: #DDDDDD;
+    background: var(--light);
 }
 
 h1 {
@@ -49,7 +49,7 @@ footer {
     width: 100%;
     position: absolute;
     text-align: center;
-    background-color: #3C8DAD;
+    background-color: var(--medium);
     color: var(--light)
 }
 
@@ -237,7 +237,8 @@ footer h2 {
     border-radius: 25%;
     height: 204.75px;
     width: 187px;
-    border: 3px solid #112B3C;
+    border: 3px solid var(--dark);
+    box-shadow: 0 5px 5px var(--dark);
 }
 
 #about-me p, #work .projects, #contact .contact-items{
