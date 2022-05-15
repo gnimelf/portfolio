@@ -283,12 +283,13 @@ footer h2 {
 /* Mobile reponse screen format @ 900 */
 @media screen and (max-width: 1340px) {
     main{
-        margin: 550px 25px 0;
+        position: relative;
+        margin: 0px 25px;
         padding: 0 40px 0 40px;
     }
-
+   
     footer {
-        margin-top: 2170px;
+        margin-top: 0;
     }
 
     .hero-project{
@@ -304,6 +305,7 @@ footer h2 {
 
     .header {
         justify-content: center;
+        position: relative;
     }
   
     .nav-menu {
