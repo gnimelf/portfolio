@@ -275,11 +275,6 @@ footer h2 {
         margin-top: 1750px;
     }
 
-    .title {
-        text-align: center;
-        padding: 20px 50px 20px 70px;
-        
-    }
 
     .link-img {
         width: 100%;
@@ -311,7 +306,7 @@ footer h2 {
     .title {
         width: 100%;
         text-align: center;
-        padding: 20px 0;
+        padding: 0;
         margin: 0;
     }
 
@@ -323,7 +318,7 @@ footer h2 {
     .nav-menu {
         margin: 0px;
         justify-content: center;
-        padding: 10px 30px 20px 30px;
+        padding: 10px 30px;
     }
 
     .nav-menu li a{
