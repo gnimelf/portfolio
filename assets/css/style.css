@@ -3,11 +3,23 @@
     --light: #fff;
     --medium: #3C8DAD;
     --dark: #112B3C;
+    --font_family: Montserrat, sans-serif, serif;
+    --heading_font_family: Montserrat, sans-serif, serif;
 }
 
 /* Background  color*/
 body {
+    position: relative;
     background: #DDDDDD;
+}
+
+h1 {
+    font-size: medium;
+    font-family: var(--font_family);
+}
+
+p {
+    font-family: var(--font_family);
 }
 
 /* Nav section */
@@ -24,14 +36,23 @@ span {
     margin: 4px 0 0 10px;
 }
 
-.sub-project:hover {
-    opacity: 1;
-}
 
 main {
     position:absolute;
     margin: 220px 65px 0 25px;
     align-items: center;
+}
+
+footer {
+    margin-top: 1701px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+footer h2 {
+    
+    padding: 20px 0;
 }
 
 .title {
@@ -54,6 +75,7 @@ main {
     box-shadow: 0 5px 5px var(--dark);
 }
 
+/* Title and menu container */
 .title-menu {
     display: flex;
     justify-content: space-around;
@@ -61,6 +83,7 @@ main {
     width: 100%;
 }
 
+/* Navi Menu items */
 .nav-menu li {
     flex-wrap: wrap;
     margin: 0 0 0 15px;
@@ -68,6 +91,7 @@ main {
     border-bottom: 3px solid var(--light);
     padding-bottom: 1px;
     min-width: fit-content;
+    font-family: var(--font_family);
 }
 
 .nav-menu {
@@ -86,7 +110,7 @@ main {
     border-bottom: 3px solid #112B3C;
 }
 
-/* Page catagories */
+/* Page section headings */
 .sub-heading {
     font-size: 48px;
     text-align: right;
@@ -126,6 +150,7 @@ main {
     transition: opacity 1s;
 }
 
+/* Sub Projects */
 .sub-project{
     width: 100%;
     height: 100%;
@@ -134,6 +159,11 @@ main {
     opacity: .5;
     border-radius: 25px;
     transition: opacity 1s;
+}
+
+/* Add opacity back to 100% */
+.sub-project:hover {
+    opacity: 1;
 }
 
 /* Hover functionality */
@@ -158,11 +188,8 @@ main {
     color:#fff;
     padding: 20px 40px;
     z-index: 2;
-}
-
-/* Label font */
-.tag p {
     font-size: large;
+    font-family: var(--font_family)
 }
 
 /* Apply flex to the icon and text */
@@ -186,6 +213,8 @@ main {
     display: flex;
     justify-content:center;
 }
+
+
 
 /* self image */
 #me img {
@@ -231,7 +260,11 @@ main {
 
     .link-img {
         width: 100%;
-        margin: 0 0 10px 0;
+        margin-top: 10px;
+    }
+    
+    .projects{
+        justify-content: space-between;
     }
 }
 
@@ -275,6 +308,14 @@ main {
         margin: 0 25 0 0px;
     }
 
+    .link-img {
+        margin-top: 10px;
+    }
+    
+    .projects{
+        justify-content: space-between;
+    }
+
     #me img {
         position: relative;
         margin: 10px 30px;
@@ -285,5 +326,6 @@ main {
         width: 100%;
         border: none;
     }
+
 
 }
