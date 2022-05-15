@@ -33,7 +33,7 @@ svg {
   }
 
 span {
-    margin: 4px 0 0 10px;
+    margin: 10px 0 0 10px;
 }
 
 main {
@@ -92,9 +92,7 @@ footer h2 {
     flex-wrap: wrap;
     margin: 0 7.5px;
     padding-bottom: 1px;
-    min-width: fit-content;
-    
-    
+    min-width: fit-content;    
 }
 
 .nav-menu li a {
@@ -141,7 +139,6 @@ footer h2 {
     justify-content: center;
     flex-wrap: wrap;
 }
-
 
 /* Main project container */
 .main-img {
@@ -251,7 +248,6 @@ footer h2 {
 #about-me, #work, #contact{
     display: flex;
     margin: 35px;
-
 }
 
 #about-me, #work{
@@ -275,7 +271,6 @@ footer h2 {
     footer {
         margin-top: 1750px;
     }
-
 
     .link-img {
         width: 100%;
@@ -324,7 +319,6 @@ footer h2 {
 
     .nav-menu li a{
         font-size: 20px;
-
     }
 
     .title-menu {
