@@ -90,7 +90,8 @@ footer h2 {
 /* Navi Menu items */
 .nav-menu li {
     flex-wrap: wrap;
-    margin: 0 0 0 15px;
+
+    margin: 0 7.5px;
     font-size: 25px;
     border-bottom: 3px solid var(--light);
     padding-bottom: 1px;
@@ -316,7 +317,7 @@ footer h2 {
 
     .nav-menu li{
         font-size: 20px;
-        margin-left: 15px;
+
     }
 
     .title-menu {
