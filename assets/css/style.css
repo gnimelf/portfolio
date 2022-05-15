@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    font-size: medium;
+    /* font-size: medium; */
     font-family: var(--font_family);
 }
 
@@ -36,28 +36,32 @@ span {
     margin: 4px 0 0 10px;
 }
 
-
 main {
     position:absolute;
     margin: 220px 65px 0 25px;
     align-items: center;
 }
 
+
+/* Footer section */
 footer {
-    margin-top: 1701px;
+    margin-top: 1300px;
     width: 100%;
     position: absolute;
     text-align: center;
+    background-color: #3C8DAD;
+    color: var(--light)
 }
 
 footer h2 {
-    
     padding: 20px 0;
 }
 
+/* Name section */
 .title {
     font-size: 48px;
-    padding: 20px 0 20px 200px;
+    padding: 20px 0 20px 50px;
+    margin-left: 200px;
 }
 
 .title, ul li {
@@ -214,8 +218,6 @@ footer h2 {
     justify-content:center;
 }
 
-
-
 /* self image */
 #me img {
     position: absolute;
@@ -243,19 +245,28 @@ footer h2 {
   justify-content:center;  
 }
 
-
 #contact {
     align-items: center;
     justify-content: space-between;
     vertical-align:middle
 }
 
-/* Mobile reponse screen format @ 1473px */
+/* Mobile reponse screen format @ 1480px */
 @media screen and (max-width: 1480px) {
     main {
         position:absolute;
         margin-top: 220px;
         align-items: center;
+    }
+
+    footer {
+        margin-top: 1750px;
+    }
+
+    .title {
+        text-align: center;
+        padding: 20px 50px 20px 70px;
+        
     }
 
     .link-img {
@@ -266,13 +277,18 @@ footer h2 {
     .projects{
         justify-content: space-between;
     }
+
 }
 
 /* Mobile reponse screen format @ 900 */
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1340px) {
     main{
         margin: 550px 25px 0;
         padding: 0 40px 0 40px;
+    }
+
+    footer {
+        margin-top: 2170px;
     }
 
     .hero-project{
@@ -280,8 +296,10 @@ footer h2 {
     }
 
     .title {
+        width: 100%;
         text-align: center;
-        padding: 20px 50px 20px 50px;
+        padding: 20px 0;
+        margin: 0;
     }
 
     .header {
