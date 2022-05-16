@@ -231,7 +231,7 @@ footer h2 {
 #me img {
     position: absolute;
     margin: 20px 0 0 5%;
-    border-radius: 25%;
+    border-radius: 25px;
     height: 204.75px;
     width: 187px;
     border: 3px solid var(--dark);
