@@ -69,7 +69,6 @@ footer h2 {
     justify-content:space-between;
     background-color: var(--medium);
     width: 100%; 
-    border-radius: 0 0 var(--b_rad) var(--b_rad);
     flex-wrap: wrap;
     position: fixed;
     z-index: 3;
@@ -117,7 +116,6 @@ footer h2 {
     background-image: url("../images/hero_full.png");
     height: 100px;
     width: 100%;
-    border-radius: 0 0 var(--b_rad) var(--b_rad);
     background-repeat: no-repeat;
     border-bottom: 3px solid var(--dark);
 }
@@ -168,7 +166,9 @@ footer h2 {
 /* Sub Projects */
 .sub-proj2 {
     background-image: url(../images/pass-gen.png);
-    background-size: 100%;
+    background-size: 105%;
+    background-position: top;
+    background-color: var(--light);
 }
 
 /* Hover functionality */
@@ -198,11 +198,10 @@ footer h2 {
 }
 
 .contact-icon, .phone-icon, .email-icon{
-    position: relative; 
-    display: block;
     background: var(--medium);
     color: var(--light);
-    padding: 15px;
+    padding: 5px;
+    border: 10px solid var(--medium);
     border-radius: 50%;
     height: 50px;
     width: 50px;
