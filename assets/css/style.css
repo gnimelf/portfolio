@@ -13,12 +13,7 @@ body {
     background: var(--light);
 }
 
-h1 {
-    /* font-size: medium; */
-    font-family: var(--font_family);
-}
-
-p {
+h1, p, span{
     font-family: var(--font_family);
 }
 
@@ -33,7 +28,9 @@ svg {
   }
 
 span {
-    margin: 10px 0 0 10px;
+    margin: 0 0 0 10px;
+    padding-top: 20px;
+    font-weight: 900;
 }
 
 main {
@@ -173,13 +170,9 @@ footer h2 {
     background-size: 100%;
 }
 
-/* Add opacity back to 100% */
-.sub-project:hover {
-    opacity: 1;
-}
-
 /* Hover functionality */
-.hero-project:hover{
+/* Add opacity back to 100% */
+.sub-project:hover, .hero-project:hover {
     opacity: 1;
 }
 
@@ -204,7 +197,7 @@ footer h2 {
     font-family: var(--font_family)
 }
 
-.contact-icon, .phone-icon, .email-icon {
+.contact-icon, .phone-icon, .email-icon{
     background-color: var(--medium);
     /* background-size: ; */
     fill: var(--light);
@@ -213,11 +206,10 @@ footer h2 {
     border-radius: 50%;
     transform: scale(.9);
     transition: .5s;
-    
 }
 
 .contact-icon:hover {
-    fill: #112B3C;
+    fill: var(--dark);
     box-shadow: 0 0 15px var(--dark);
 }
 
@@ -241,7 +233,7 @@ footer h2 {
 
 /* Social media icon spacing */
 .github, .linkedIn {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 /* Set flex on social media icons */
@@ -284,7 +276,7 @@ footer h2 {
 }
 
 /* Mobile response screen format @ 1480px */
-@media screen and (max-width: 1480px) {
+@media screen and (max-width: 1483px) {
     main {
         position:absolute;
         margin-top: 220px;
@@ -307,7 +299,7 @@ footer h2 {
 }
 
 /* Mobile response screen format @ 1340px */
-@media screen and (max-width: 1340px) {
+@media screen and (max-width: 1370px) {
     main{
         position: relative;
         margin: 0px 25px;
@@ -356,10 +348,6 @@ footer h2 {
 
     .link-img {
         margin-top: 10px;
-    }
-    
-    .projects{
-        justify-content: space-between;
     }
 
     #me img {
