@@ -149,29 +149,28 @@ footer h2 {
     margin-bottom: 10px;
 }
 
-/* Main project image format */
-.hero-project{
-    height: 100%;
+.hero-project, .sub-project {
     width: 100%;
-    background-image: url(../images/project_1.png);
-    background-repeat: no-repeat;
-    background-position:  0 85%;
-    background-size: 130%;
+    height: 100%;
     border: 3px solid var(--dark);
+    background-color: var(--medium);
+    background-repeat: no-repeat;
     border-radius: 25px;
     opacity: .5;
     transition: opacity 1s;
 }
 
+/* Main project image format */
+.hero-project{
+    background-image: url(../images/project_1.png);
+    background-position:  0 85%;
+    background-size: 130%;
+}
+
 /* Sub Projects */
-.sub-project{
-    width: 100%;
-    height: 100%;
-    background-color: var(--medium);
-    border: 3px solid var(--dark); 
-    opacity: .5;
-    border-radius: 25px;
-    transition: opacity 1s;
+.sub-proj2 {
+    background-image: url(../images/pass-gen.png);
+    background-size: 100%;
 }
 
 /* Add opacity back to 100% */
