@@ -45,7 +45,7 @@ main {
 
 /* Footer section */
 footer {
-    margin-top: 1300px;
+    margin-top: 1400px;
     width: 100%;
     position: absolute;
     text-align: center;
@@ -205,15 +205,39 @@ footer h2 {
     font-family: var(--font_family)
 }
 
-/* Apply flex to the icon and text */
+.contact-icon, .phone-icon, .email-icon {
+    background-color: var(--medium);
+    /* background-size: ; */
+    fill: var(--light);
+    padding: 10px;
+    border: 10px;
+    border-radius: 50%;
+    transform: scale(.9);
+    transition: .5s;
+    
+}
+
+.contact-icon:hover {
+    fill: #112B3C;
+    box-shadow: 0 0 15px var(--dark);
+}
+
+.contact-icon:hover::before {
+    transform: scale(1.5);
+    box-shadow: 0 0 15px var(--dark);
+}
+
+/* Apply flex to the contact me email and phone icon and text */
 .phone, .email {
     display: flex;
     justify-content:center;  
 }
 
+
 /* Add spacing around each contact group */
 .social-media, .phone, .email{
     margin: 10px;
+    
 }
 
 /* Social media icon spacing */
@@ -260,7 +284,7 @@ footer h2 {
     vertical-align:middle
 }
 
-/* Mobile reponse screen format @ 1480px */
+/* Mobile response screen format @ 1480px */
 @media screen and (max-width: 1480px) {
     main {
         position:absolute;
@@ -283,7 +307,7 @@ footer h2 {
 
 }
 
-/* Mobile reponse screen format @ 1340 */
+/* Mobile response screen format @ 1340px */
 @media screen and (max-width: 1340px) {
     main{
         position: relative;
