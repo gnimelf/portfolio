@@ -5,6 +5,7 @@
     --dark: #112B3C;
     --font_family: Montserrat, sans-serif, serif;
     --heading_font_family: Montserrat, sans-serif, serif;
+    --b_rad: 25px;
 }
 
 /* Background  color*/
@@ -22,17 +23,13 @@ nav {
     margin: 15px 0;
 }
 
-svg {
-    height: 40px;
-    width: 40px;
-  }
-
 span {
     margin: 0 0 0 10px;
-    padding-top: 20px;
+    padding-top: 35px;
     font-weight: 900;
 }
 
+/* Main Section */
 main {
     position:absolute;
     margin: 220px 65px 0 25px;
@@ -40,9 +37,9 @@ main {
 }
 
 
-/* Footer section */
+/* Footer Section */
 footer {
-    margin-top: 1400px;
+    margin-top: 1450px;
     width: 100%;
     position: absolute;
     text-align: center;
@@ -51,8 +48,10 @@ footer {
 }
 
 footer h2 {
+    margin: 20px 0;
     padding: 20px 0;
 }
+
 
 /* Name section */
 .title {
@@ -70,6 +69,7 @@ footer h2 {
     justify-content:space-between;
     background-color: var(--medium);
     width: 100%; 
+    border-radius: 0 0 var(--b_rad) var(--b_rad);
     flex-wrap: wrap;
     position: fixed;
     z-index: 3;
@@ -117,6 +117,7 @@ footer h2 {
     background-image: url("../images/hero_full.png");
     height: 100px;
     width: 100%;
+    border-radius: 0 0 var(--b_rad) var(--b_rad);
     background-repeat: no-repeat;
     border-bottom: 3px solid var(--dark);
 }
@@ -152,7 +153,7 @@ footer h2 {
     border: 3px solid var(--dark);
     background-color: var(--medium);
     background-repeat: no-repeat;
-    border-radius: 25px;
+    border-radius: var(--b_rad);
     opacity: .5;
     transition: opacity 1s;
 }
@@ -171,7 +172,6 @@ footer h2 {
 }
 
 /* Hover functionality */
-/* Add opacity back to 100% */
 .sub-project:hover, .hero-project:hover {
     opacity: 1;
 }
@@ -198,25 +198,24 @@ footer h2 {
 }
 
 .contact-icon, .phone-icon, .email-icon{
-    background-color: var(--medium);
-    /* background-size: ; */
-    fill: var(--light);
-    padding: 10px;
-    border: 10px;
+    position: relative; 
+    display: block;
+    background: var(--medium);
+    color: var(--light);
+    padding: 15px;
     border-radius: 50%;
-    transform: scale(.9);
+    height: 30px;
+    width: 30px;
+    line-height: 63px;
+    font-size: 30px;
     transition: .5s;
 }
 
-.contact-icon:hover {
-    fill: var(--dark);
-    box-shadow: 0 0 15px var(--dark);
-}
-
-.contact-icon:hover::before {
-    transform: scale(1.5);
-    box-shadow: 0 0 15px var(--dark);
-}
+  .contact-icon:hover {
+    color: var(--dark);
+    box-shadow: 0 0 5px var(--dark);
+    text-shadow: 0 0 5px var(--dark);
+  }
 
 /* Apply flex to the contact me email and phone icon and text */
 .phone, .email {
@@ -227,7 +226,7 @@ footer h2 {
 
 /* Add spacing around each contact group */
 .social-media, .phone, .email{
-    margin: 10px;
+    margin: 20px;
     
 }
 
@@ -284,7 +283,7 @@ footer h2 {
     }
 
     footer {
-        margin-top: 1750px;
+        margin-top: 1900px;
     }
 
     .link-img {
@@ -307,7 +306,7 @@ footer h2 {
     }
    
     footer {
-        margin-top: 0;
+        margin-top: 40px;
     }
 
     .hero-project{
