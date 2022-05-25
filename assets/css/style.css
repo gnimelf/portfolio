@@ -164,11 +164,18 @@ footer h2 {
 }
 
 /* Sub Projects */
-.sub-proj2 {
-    background-image: url(../images/pass-gen.png);
+.sub-proj2, .sub-proj3 {
     background-size: 105%;
     background-position: top;
     background-color: var(--light);
+}
+
+.sub-proj2 {
+    background-image: url(../images/pass-gen.png);
+}
+
+.sub-proj3 {
+    background-image: url(../images/quiz-game.png);
 }
 
 /* Hover functionality */
