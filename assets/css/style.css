@@ -176,6 +176,10 @@ footer h2 {
 
 .sub-proj3 {
     background-image: url(../images/quiz-game.png);
+    background-position-x: center;
+    background-position: 50% 30%;
+    /* background-position: 0 -30px; */
+    background-size: 100%;
 }
 
 /* Hover functionality */
