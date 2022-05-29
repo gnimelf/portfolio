@@ -174,12 +174,18 @@ footer h2 {
     background-image: url(../images/pass-gen.png);
 }
 
+.sub-proj3, .sub-proj4 {
+    background-size: 100%;
+}
+
 .sub-proj3 {
     background-image: url(../images/quiz-game.png);
-    background-position-x: center;
     background-position: 50% 30%;
-    /* background-position: 0 -30px; */
-    background-size: 100%;
+}
+
+.sub-proj4 {
+    background-image: url(../images/daily_work_schedule.png);
+    background-position: 50% 10%;
 }
 
 /* Hover functionality */
