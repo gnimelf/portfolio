@@ -39,7 +39,7 @@ main {
 
 /* Footer Section */
 footer {
-    margin-top: 1450px;
+    margin-top: 1550px;
     width: 100%;
     position: absolute;
     text-align: center;
@@ -218,16 +218,17 @@ footer h2 {
     background: var(--medium);
     color: var(--light);
     padding: 5px;
-    border: 10px solid var(--medium);
+    border: 5px solid var(--medium);
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
     line-height: 63px;
+    height: 35px;
+    width: 35px; 
     font-size: 30px;
     transition: .5s;
 }
 
-  .contact-icon:hover {
+
+.contact-icon:hover {
     color: var(--dark);
     box-shadow: 0 0 20px var(--dark);
     text-shadow: 0 0 20px var(--dark);
@@ -299,7 +300,7 @@ footer h2 {
     }
 
     footer {
-        margin-top: 1900px;
+        margin-top: 2300px;
     }
 
     .link-img {
