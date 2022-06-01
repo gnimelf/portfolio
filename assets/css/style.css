@@ -174,8 +174,8 @@ footer h2 {
     background-image: url(../images/pass-gen.png);
 }
 
-.sub-proj3, .sub-proj4 {
-    background-size: 100%;
+.sub-proj3, .sub-proj4, .sub-proj5 {
+    background-size: 115%;
 }
 
 .sub-proj3 {
@@ -185,6 +185,11 @@ footer h2 {
 
 .sub-proj4 {
     background-image: url(../images/daily_work_schedule.png);
+    background-position: 50% 10%;
+}
+
+.sub-proj5 {
+    background-image: url(../images/project-tracker.png);
     background-position: 50% 10%;
 }
 
