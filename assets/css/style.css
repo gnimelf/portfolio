@@ -192,7 +192,11 @@ footer h2 {
     background-image: url(../images/project-tracker.png);
     background-position: 50% 10%;
 }
-
+.sub-proj6 {
+    background-image: url(../images/loc_search_tool.png);
+    background-position: 50% 35%;
+    background-size: 110%;
+}
 /* Hover functionality */
 .sub-project:hover, .hero-project:hover {
     opacity: 1;
