@@ -185,6 +185,7 @@ footer h2 {
 .sub-proj4 {
     background-image: url(../images/daily_work_schedule.png);
     background-position: 50% 10%;
+    background-size: 100%;
 }
 
 .sub-proj5 {
