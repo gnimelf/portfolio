@@ -197,6 +197,11 @@ footer h2 {
     background-size: 110%;
 }
 .sub-proj7 {
+    background-image: url(../images/wordguess.png);
+    background-position: 50% 5%;
+    background-size: 110%;
+}
+.sub-proj8 {
     background-image: url(../images/project_1.png);
     background-position:  0 85%;
     background-size: 130%;
