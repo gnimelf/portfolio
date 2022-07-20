@@ -25,26 +25,27 @@ nav {
 
 span {
     margin: 0 0 0 10px;
-    padding-top: 35px;
     font-weight: 900;
 }
 
 /* Main Section */
 main {
     position:absolute;
-    margin: 220px 65px 0 25px;
+    margin: 220px 65px 0 0px;
     align-items: center;
 }
 
 
 /* Footer Section */
 footer {
-    margin-top: 1800px;
+    /* margin-top: 1800px; */
     width: 100%;
-    position: absolute;
+    left: -30px;
+    padding: 15px 34px;
+    align-content: center;
     text-align: center;
     background-color: var(--medium);
-    color: var(--light)
+    color: var(--light);
 }
 
 footer h2 {
@@ -157,12 +158,14 @@ footer h2 {
 }
 
 /* Main project image format */
-.hero-project{
+.hero-project {
     background-image: url(../images/weather_dashboard.png);
     background-position: 50% 0%;
     background-size: 110%;
 }
+
 /* Sub Projects */
+
 .sub-proj2, .sub-proj3 {
     background-size: 105%;
     background-position: top;
@@ -182,36 +185,47 @@ footer h2 {
     background-position: 50% 30%;
 }
 
-.sub-proj4 {
-    background-image: url(../images/daily_work_schedule.png);
-    background-position: 50% 10%;
-    background-size: 100%;
+.sub-proj4{
+    background-image: url(https://github.com/gnimelf/team-profile-generator/blob/main/assets/screenshot.png?raw=true);
+    background-position: 50%  5%;
 }
 
 .sub-proj5 {
-    background-image: url(../images/project-tracker.png);
-    background-position: 50% 10%;
+    background-image: url(../images/daily_work_schedule.png);
+    background-position: 50% 0%;
 }
+
 .sub-proj6 {
+    background-image: url(../images/project-tracker.png);
+    background-position: 48% 10%;
+}
+
+.sub-proj7 {
     background-image: url(../images/loc_search_tool.png);
     background-position: 50% 35%;
     background-size: 110%;
 }
-.sub-proj7 {
+
+.sub-proj8 {
     background-image: url(../images/wordguess.png);
     background-position: 50% 5%;
     background-size: 110%;
 }
-.sub-proj8 {
+
+.sub-proj9 {
     background-image: url(../images/project_1.png);
     background-position:  0 85%;
     background-size: 130%;
 }
+<<<<<<< HEAD
 .sub-proj9 {
     background-image: url(../images/group-project-1.png);
     background-position:  50% 30%;
     background-size: 130%;
 }
+=======
+
+>>>>>>> aae47b6 (fixed footer moving position issue (style.css:41-48,330,330-354 and index.html:55-126), add new project (style.css:189-220))
 /* Hover functionality */
 .sub-project:hover, .hero-project:hover {
     opacity: 1;
@@ -262,6 +276,7 @@ footer h2 {
 .phone, .email {
     display: flex;
     justify-content:center;  
+    align-items: center;
 }
 
 
@@ -319,12 +334,8 @@ footer h2 {
 @media screen and (max-width: 1483px) {
     main {
         position:absolute;
-        margin-top: 220px;
         align-items: center;
-    }
-
-    footer {
-        margin-top: 2700px;
+        margin-top: 40;
     }
 
     .link-img {
@@ -342,12 +353,13 @@ footer h2 {
 @media screen and (max-width: 1370px) {
     main{
         position: relative;
-        margin: 0px 25px;
-        padding: 0 40px 0 40px;
+        padding: 0 0 0 40px;
+        margin-top: 0;
     }
-   
-    footer {
-        margin-top: 40px;
+
+    footer{
+        position:absolute;
+        padding: 0 64px 0 64px;
     }
 
     .hero-project{
