@@ -211,21 +211,17 @@ footer h2 {
     background-position: 50% 5%;
     background-size: 110%;
 }
-
-.sub-proj9 {
-    background-image: url(../images/project_1.png);
-    background-position:  0 85%;
-    background-size: 130%;
-}
-<<<<<<< HEAD
 .sub-proj9 {
     background-image: url(../images/group-project-1.png);
     background-position:  50% 30%;
     background-size: 130%;
 }
-=======
+.sub-proj10 {
+    background-image: url(../images/project_1.png);
+    background-position:  0 85%;
+    background-size: 130%;
+}
 
->>>>>>> aae47b6 (fixed footer moving position issue (style.css:41-48,330,330-354 and index.html:55-126), add new project (style.css:189-220))
 /* Hover functionality */
 .sub-project:hover, .hero-project:hover {
     opacity: 1;
