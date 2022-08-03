@@ -186,37 +186,42 @@ footer h2 {
 }
 
 .sub-proj4{
+    background-image: url(../images/employee_tracker.png);
+    background-position: 50%  5%;
+}
+
+.sub-proj5{
     background-image: url(https://github.com/gnimelf/team-profile-generator/blob/main/assets/screenshot.png?raw=true);
     background-position: 50%  5%;
 }
 
-.sub-proj5 {
+.sub-proj6 {
     background-image: url(../images/daily_work_schedule.png);
     background-position: 50% 0%;
 }
 
-.sub-proj6 {
+.sub-proj7 {
     background-image: url(../images/project-tracker.png);
     background-position: 48% 10%;
 }
 
-.sub-proj7 {
+.sub-proj8 {
     background-image: url(../images/loc_search_tool.png);
     background-position: 50% 35%;
     background-size: 110%;
 }
 
-.sub-proj8 {
+.sub-proj9 {
     background-image: url(../images/wordguess.png);
     background-position: 50% 5%;
     background-size: 110%;
 }
-.sub-proj9 {
+.sub-proj10 {
     background-image: url(../images/group-project-1.png);
     background-position:  50% 30%;
     background-size: 130%;
 }
-.sub-proj10 {
+.sub-proj11 {
     background-image: url(../images/project_1.png);
     background-position:  0 85%;
     background-size: 130%;
