@@ -197,12 +197,14 @@ footer h2 {
 
 .sub-proj6 {
     background-image: url(../images/daily_work_schedule.png);
-    background-position: 50% 0%;
+    background-position: 50% 5%;
+    background-size: 110%;
 }
 
 .sub-proj7 {
     background-image: url(../images/project-tracker.png);
     background-position: 48% 10%;
+    background-size: 110%;
 }
 
 .sub-proj8 {
