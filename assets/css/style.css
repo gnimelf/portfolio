@@ -161,6 +161,7 @@ footer h2 {
 .hero-project {
     background-image: url(../images/tech-blog.png);
     background-position: 50% 0%;
+    background-size: 100%;
 }
 
 /* Sub Projects */
